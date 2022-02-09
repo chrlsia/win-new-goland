@@ -9,4 +9,8 @@ func main() {
 	m1[1] = "kyriakh"
 	fmt.Println(m1)
 
+	for _, value := range m1 {
+		fmt.Println(value)
+	}
+
 }
